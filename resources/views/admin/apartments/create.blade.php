@@ -41,6 +41,7 @@
       <label for="beds">Letti</label>
       <input type="number" id="beds" name="beds"
               min="1" max="99"
+              value="{{old("beds")}}"
               class="form-control @error('beds') is-invalid @enderror">
 
       @error('beds')
@@ -53,6 +54,7 @@
       <label for="bathrooms">Bagni</label>
       <input type="number" id="bathrooms" name="bathrooms"
               min="1" max="99"
+              value="{{old("bathrooms")}}"
               class="form-control @error('bathrooms') is-invalid @enderror">
 
       @error('bathrooms')
@@ -65,6 +67,7 @@
       <label for="bathrooms">Metri quadrati</label>
       <input type="number" id="square_meters" name="square_meters"
               min="1" max="999"
+              value="{{old("square_meters")}}"
               class="form-control @error('square_meters') is-invalid @enderror">
 
       @error('square_meters')
@@ -75,7 +78,7 @@
   <!-- address -->
   <div class="form-group col-md-12">
     <label for="address">Indirizzo completo</label>
-    <input type="text" class="form-control @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" >
+    <input type="text" class="form-control @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" value="{{old("address")}}" >
     @error('address')
       <div class="alert alert-danger">{{ $message }}</div>
     @enderror
@@ -86,7 +89,7 @@
     <label class="form-check-label" for="visible">
       Visibile
     </label>
-    <input class="form-check-input" type="checkbox" name="visible" id="visible"
+    <input class="form-check-input ml-2" type="checkbox" name="visible" id="visible"
     value="visible"
     {{old("visible") ? "checked" : ""}}
     >  
@@ -98,7 +101,7 @@
 
 
   <!-- services -->
-  <div class="form-group">
+  <div class="form-group m-4">
       <label>Servizi</label>
       @foreach ($services as $service)
         <div class="form-check">
@@ -113,7 +116,7 @@
       @endforeach
   </div>
 
-  <button type="submit" class="btn btn-primary">Add</button>
+  <button type="submit" class="btn btn-primary m-4">Add</button>
 </form>
 
 
