@@ -2,7 +2,8 @@
 
 @section('content')
 <div class="container">
-    <a href="{{ route('admin.apartments.create') }}"><button type="button" class="btn btn-success">aggiungi</button></a>
+    <a href="{{route('admin.home')}}">Torna alla tua Dashboard</a>
+    <a href="{{ route('admin.apartments.create') }}"><button type="button" class="btn btn-success m-1">Aggiungi appartamento</button></a>
 
     <table class="table">
         <thead>

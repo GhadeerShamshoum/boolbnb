@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 class ApartmentController extends Controller
 {
     protected $validation = [
-        'name'=>'required|string|max:20',
+        'name'=>'required|string|max:60',
         'description'=>'required|string',
         'rooms'=>'required|integer|min:1|max:99',
         'beds'=>'required|integer|min:1|max:99',

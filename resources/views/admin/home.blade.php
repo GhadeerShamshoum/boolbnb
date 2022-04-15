@@ -15,8 +15,17 @@
                     @endif
 
                     Benvenuto, {{Auth::user()->name}}.
-                    <div>
+                    <div>                        
                         <a href="{{route('admin.apartments.index')}}">Visualizza i tuoi appartamenti</a>
+                    </div>
+                    <div>
+                        <a href="{{route('admin.apartments.create')}}">Aggiungi un nuovo appartamento</a>                  
+                    </div>
+                    <div>
+                        <a href="{{route('admin.home')}}">Vedi il tuo profilo</a>                                  
+                    </div>
+                    <div>
+                        <a href="{{ url('/') }}">Torna alla Home</a>                                        
                     </div>
                 </div>
             </div>

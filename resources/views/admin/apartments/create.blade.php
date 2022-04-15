@@ -116,7 +116,10 @@
       @endforeach
   </div>
 
-  <button type="submit" class="btn btn-primary m-4">Add</button>
+
+  <button type="submit" class="btn btn-primary">Add</button>
+  <a href="{{route('admin.apartments.index')}}">Annulla</a>
+
 </form>
 
 
