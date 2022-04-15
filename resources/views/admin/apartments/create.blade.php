@@ -41,6 +41,7 @@
       <label for="beds">Letti</label>
       <input type="number" id="beds" name="beds"
               min="1" max="99"
+              value="{{old("beds")}}"
               class="form-control @error('beds') is-invalid @enderror">
 
       @error('beds')
@@ -53,6 +54,7 @@
       <label for="bathrooms">Bagni</label>
       <input type="number" id="bathrooms" name="bathrooms"
               min="1" max="99"
+              value="{{old("bathrooms")}}"
               class="form-control @error('bathrooms') is-invalid @enderror">
 
       @error('bathrooms')
@@ -62,9 +64,10 @@
 
    <!-- metri quadrati -->
   <div class="form-group col-md-12">
-      <label for="bathrooms">Metri quadrati</label>
+      <label for="square_meters">Metri quadrati</label>
       <input type="number" id="square_meters" name="square_meters"
               min="1" max="999"
+              value="{{old("square_meters")}}"
               class="form-control @error('square_meters') is-invalid @enderror">
 
       @error('square_meters')
@@ -75,7 +78,7 @@
   <!-- address -->
   <div class="form-group col-md-12">
     <label for="address">Indirizzo completo</label>
-    <input type="text" class="form-control @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" >
+    <input type="text" class="form-control @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" value="{{old("address")}}">
     @error('address')
       <div class="alert alert-danger">{{ $message }}</div>
     @enderror
@@ -92,9 +95,52 @@
     >  
   </div>
 
-
-
-  {{-- image --}}
+  <!-- images -->
+  <div class="form-group">
+    <label for="">Immagini</label>
+    <input type="file" name="image"
+    class="form-control @error('image') is-invalid @enderror"
+    >
+    @error('image')
+    <div class="invalid-feedback">{{ $message }}</div>
+    @enderror
+  </div>
+  <div class="form-group">  
+    <label for="">Immagini</label>
+    <input type="file" name="image[]"
+    class="form-control @error('image') is-invalid @enderror"
+    >
+    @error('image')
+    <div class="invalid-feedback">{{ $message }}</div>
+    @enderror
+  </div>
+  <div class="form-group">
+    <label for="">Immagini</label>
+    <input type="file" name="image"
+    class="form-control @error('image') is-invalid @enderror"
+    >
+    @error('image')
+    <div class="invalid-feedback">{{ $message }}</div>
+    @enderror
+  </div>
+  <div class="form-group">
+    <label for="">Immagini</label>
+    <input type="file" name="image"
+    class="form-control @error('image') is-invalid @enderror"
+    >
+    @error('image')
+    <div class="invalid-feedback">{{ $message }}</div>
+    @enderror
+  </div>
+  <div class="form-group">
+    <label for="">Immagini</label>
+    <input type="file" name="image"
+    class="form-control @error('image') is-invalid @enderror"
+    >
+    @error('image')
+    <div class="invalid-feedback">{{ $message }}</div>
+    @enderror
+  </div>
 
 
   <!-- services -->

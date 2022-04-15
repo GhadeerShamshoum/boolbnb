@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
+use Illuminate\Support\facades\Storage;
 
 use App\Apartment;
 use App\Image;
@@ -20,7 +21,8 @@ class ApartmentController extends Controller
         'bathrooms'=>'required|integer|min:1|max:99',
         'square_meters'=>'required|integer|min:1|max:999',
         'address'=>'required|string|max:80',
-        'image'=>'exists:images,id',
+        'image'=>'nullable| mimes:jpeg, bmp, png,jpg| max:2048',
+        //'image'=>'exists:images,id',
         'services'=>'exists:services,id'
     ];
 
@@ -73,7 +75,14 @@ class ApartmentController extends Controller
         //validation
         $request->validate($this->validation);
 
-        $apartment = new Apartment();   
+        $apartment = new Apartment(); 
+        //image
+        if(isset($form_data["image"])){
+            // save img 
+            $img_path = Storage::put('uploads', $form_data['image']);
+            //save img in Database
+            $form_data["image"] = $img_path;
+        }  
 
         //slug
         $slugName= Str::slug($form_data['name']);
