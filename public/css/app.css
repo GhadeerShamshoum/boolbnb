@@ -14036,6 +14036,51 @@ a.logo {
   background-color: #39858a;
 }
 
+.apartmentscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.apartmentscontainer .card {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  padding: 20px;
+}
+
+.apartmentscontainer .card h3 {
+  height: 70px;
+}
+
+.apartmentscontainer .card .imgContainer {
+  height: 235px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.apartmentscontainer .card .imgContainer img {
+  height: 100%;
+}
+
+.apartmentscontainer .card h6 {
+  margin: 10px;
+}
+
+.showbtn,
+.editbtn,
+.cancelbtn {
+  width: 100px;
+  background-color: #39858a;
+  transition: linear 1s;
+  border: none;
+}
+
+.showbtn:hover,
+.editbtn:hover,
+.cancelbtn:hover {
+  background-color: #2b9ea8;
+}
+
 .createContainer {
   background-color: rgb(239, 235, 235);
   padding: 10px 0;
