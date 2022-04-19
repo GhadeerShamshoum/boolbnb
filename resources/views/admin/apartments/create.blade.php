@@ -66,6 +66,7 @@
         </label>
         <input type="number" id="beds" name="beds"
                 min="1" max="99"
+                value="{{old("beds")}}"
                 class="col-1 form-control @error('beds') is-invalid @enderror">
   
         @error('beds')
@@ -84,6 +85,7 @@
         </label>
         <input type="number" id="bathrooms" name="bathrooms"
                 min="1" max="99"
+                value="{{old("bathrooms")}}"
                 class="col-1 form-control @error('bathrooms') is-invalid @enderror">
   
         @error('bathrooms')
@@ -102,6 +104,7 @@
         </label>
         <input type="number" id="square_meters" name="square_meters"
                 min="1" max="999"
+                value="{{old("square_meters")}}"
                 class="col-1 form-control @error('square_meters') is-invalid @enderror">
   
         @error('square_meters')
@@ -118,7 +121,7 @@
             <path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
         </div>
       </label>
-      <input type="text" class="form-control col-8 @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" >
+      <input type="text" class="form-control col-8 @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" value="{{old("address")}}">
       @error('address')
         <div class="alert alert-danger">{{ $message }}</div>
       @enderror

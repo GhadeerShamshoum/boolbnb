@@ -124,7 +124,7 @@
         </div>
 
       </label>
-      <input type="text" class="form-control col-8 @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" value="{{old("address")??$apartment->address}}">
+      <input type="text" class="form-control col-8 @error('address') is-invalid @enderror" id="address" name="address" placeholder="aggiungi l'indirizzo completo" value="{{old("address") ?? $apartment->address}}">
       @error('address')
         <div class="alert alert-danger">{{ $message }}</div>
       @enderror
