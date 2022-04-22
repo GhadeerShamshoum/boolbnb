@@ -46,16 +46,18 @@
         
         <!-- cities cards -->
         <div class="container-fluid">
-            <div class="ms_citiesContainer container-fluid d-flex flex-column">
-                <h1 class="mb-2">Destinazioni Più Gettonate</h1>
-                <div class="row ms_flexContainer d-flex col-12">
-                    <div v-for="(element, index) in cities" :key="index" class="ms_cityCard col"  :style="{'background-color':colors[index]}">
-                        <div class="ms_imageContainer">
-                            <img :src="require('../../../public/storage/uploads/'+element.image+'.jpg') " alt="">
-                        </div>
-                        <div class="ms_textcity">
-                            <h1 class="text-white">{{element.title}}</h1>
-                            <h4 class="text-white">{{element.text}}</h4>
+            <div class="row">
+                <div class="ms_citiesContainer container-fluid d-flex flex-column">
+                    <h1 class="mb-2">Destinazioni Più Gettonate</h1>
+                    <div class="row ms_flexContainer d-flex col-12">
+                        <div v-for="(element, index) in cities" :key="index" class="ms_cityCard col"  :style="{'background-color':colors[index]}">
+                            <div class="ms_imageContainer">
+                                <img :src="require('../../../public/storage/uploads/'+element.image+'.jpg') " alt="">
+                            </div>
+                            <div class="ms_textcity">
+                                <h1 class="text-white">{{element.title}}</h1>
+                                <h4 class="text-white">{{element.text}}</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
