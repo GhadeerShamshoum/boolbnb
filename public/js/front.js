@@ -8313,7 +8313,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "header[data-v-1f42fb90] {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  height: 80px;\n  background-color: white;\n  color: black;\n  transition: 0.5s ease all;\n  z-index: 1000;\n}\nheader .header-container[data-v-1f42fb90] {\n  position: relative;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\nheader .header-container .headerleft[data-v-1f42fb90] {\n  font-size: 26px;\n  font-weight: 500;\n  padding-left: 7%;\n}\nheader .header-container .headercenter nav ul[data-v-1f42fb90] {\n  display: flex;\n  list-style: none;\n}\nheader .header-container .headercenter nav ul li[data-v-1f42fb90] {\n  margin: 10px;\n  border-bottom: 1px black;\n}\nheader .header-container .headercenter nav ul li a[data-v-1f42fb90] {\n  cursor: pointer;\n  color: white;\n}\nheader .header-container .headercenter .headercenterB[data-v-1f42fb90] {\n  width: 460px;\n}\nheader .header-container .headercenter .headercenterB .inputContainer[data-v-1f42fb90] {\n  border: 1px solid gray;\n}\nheader .header-container .headercenter .headercenterB .inputContainer .ms_icon[data-v-1f42fb90] {\n  display: flex;\n  justify-content: end;\n  width: 30px;\n  align-items: center;\n}\nheader .header-container .headercenter .headercenterB .inputContainer .ms_icon .searchIcon[data-v-1f42fb90] {\n  background-color: #ff385c;\n  border-radius: 50%;\n  color: white;\n  padding: 15px;\n}\nheader .header-container .headercenter .headercenterB .inputContainer .ms_icon .searchIcon[data-v-1f42fb90]:hover {\n  cursor: pointer;\n}\nheader .header-container .headerright ul[data-v-1f42fb90] {\n  list-style: none;\n  display: flex;\n  align-items: center;\n}\nheader .header-container .headerright ul li[data-v-1f42fb90] {\n  margin: 10px;\n}\nheader .header-container .headerright ul li button[data-v-1f42fb90] {\n  border: none;\n  border-radius: 35px;\n  padding: 2px;\n  width: 90px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\nheader .header-container .headerright ul li button .fa-user[data-v-1f42fb90] {\n  border-radius: 50%;\n  background-color: #717171;\n  padding: 5px;\n  color: white;\n}\nheader .inputContainer[data-v-1f42fb90] {\n  background-color: white;\n  border-radius: 30px;\n  height: 60px;\n  padding: 3px;\n  display: flex;\n  align-items: center;\n}\nheader .inputContainer input[data-v-1f42fb90] {\n  border: none;\n}\n.is-hidden[data-v-1f42fb90] {\n  background: black;\n  color: white;\n  transition: 0.5s ease all;\n  height: 153px;\n}\n.pink[data-v-1f42fb90] {\n  color: #ff385c;\n}\n.hide[data-v-1f42fb90] {\n  display: none;\n}\n.search[data-v-1f42fb90] {\n  border: 1px solid black;\n  width: 300px;\n}\n.autocompleters[data-v-1f42fb90] {\n  background-color: white;\n  color: black;\n  width: 100%;\n  position: absolute;\n  top: 52px;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.autocompleters .option[data-v-1f42fb90] {\n  border-bottom: 1px solid black;\n}\ninput[data-v-1f42fb90]:focus, textarea[data-v-1f42fb90]:focus, select[data-v-1f42fb90]:focus {\n  outline: none;\n}", ""]);
+exports.push([module.i, "header[data-v-1f42fb90] {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  height: 80px;\n  background-color: white;\n  color: black;\n  transition: 0.5s ease all;\n  z-index: 1000;\n}\nheader .header-container[data-v-1f42fb90] {\n  position: relative;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\nheader .header-container .headerleft[data-v-1f42fb90] {\n  font-size: 26px;\n  font-weight: 500;\n  padding-left: 7%;\n}\nheader .header-container .headercenter nav ul[data-v-1f42fb90] {\n  display: flex;\n  list-style: none;\n}\nheader .header-container .headercenter nav ul li[data-v-1f42fb90] {\n  margin: 10px;\n  border-bottom: 1px black;\n}\nheader .header-container .headercenter nav ul li a[data-v-1f42fb90] {\n  cursor: pointer;\n  color: white;\n}\nheader .header-container .headercenter .headercenterB[data-v-1f42fb90] {\n  width: 460px;\n}\nheader .header-container .headercenter .headercenterB .inputContainer[data-v-1f42fb90] {\n  border: 1px solid gray;\n}\nheader .header-container .headercenter .headercenterB .inputContainer .ms_icon[data-v-1f42fb90] {\n  display: flex;\n  justify-content: end;\n  width: 30px;\n  align-items: center;\n  margin-right: 5px;\n}\nheader .header-container .headercenter .headercenterB .inputContainer .ms_icon .searchIcon[data-v-1f42fb90] {\n  background-color: #ff385c;\n  border-radius: 50%;\n  color: white;\n  padding: 15px;\n}\nheader .header-container .headercenter .headercenterB .inputContainer .ms_icon .searchIcon[data-v-1f42fb90]:hover {\n  cursor: pointer;\n}\nheader .header-container .headerright ul[data-v-1f42fb90] {\n  list-style: none;\n  display: flex;\n  align-items: center;\n}\nheader .header-container .headerright ul li[data-v-1f42fb90] {\n  margin: 10px;\n}\nheader .header-container .headerright ul li button[data-v-1f42fb90] {\n  border: none;\n  border-radius: 35px;\n  padding: 2px;\n  width: 90px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\nheader .header-container .headerright ul li button .fa-user[data-v-1f42fb90] {\n  border-radius: 50%;\n  background-color: #717171;\n  padding: 5px;\n  color: white;\n}\nheader .inputContainer[data-v-1f42fb90] {\n  background-color: white;\n  border-radius: 30px;\n  height: 60px;\n  padding: 3px;\n  display: flex;\n  align-items: center;\n}\nheader .inputContainer input[data-v-1f42fb90] {\n  border: none;\n}\n.is-hidden[data-v-1f42fb90] {\n  background: black;\n  color: white;\n  transition: 0.5s ease all;\n  height: 153px;\n}\n.pink[data-v-1f42fb90] {\n  color: #ff385c;\n}\n.hide[data-v-1f42fb90] {\n  display: none;\n}\n.search[data-v-1f42fb90] {\n  border: 1px solid black;\n  width: 300px;\n}\n.autocompleters[data-v-1f42fb90] {\n  background-color: white;\n  color: black;\n  width: 100%;\n  position: absolute;\n  top: 52px;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.autocompleters .option[data-v-1f42fb90] {\n  border-bottom: 1px solid black;\n}\ninput[data-v-1f42fb90]:focus, textarea[data-v-1f42fb90]:focus, select[data-v-1f42fb90]:focus {\n  outline: none;\n}", ""]);
 
 // exports
 
@@ -8351,7 +8351,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".ms_jumbotron[data-v-00e83377] {\n  background-color: black;\n  height: 800px;\n  display: flex;\n  justify-content: center;\n  position: relative;\n}\n.ms_jumbotron .ms_imagecontainerJumbo[data-v-00e83377] {\n  margin-top: 200px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 712px;\n  border-radius: 20px;\n  overflow: hidden;\n}\n.ms_jumbotron .ms_imagecontainerJumbo img[data-v-00e83377] {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer[data-v-00e83377] {\n  position: absolute;\n  bottom: 30px;\n  left: 50%;\n  transform: translate(-50%);\n  width: 700px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer h1.ms_textJombo[data-v-00e83377] {\n  font-size: 50px;\n  text-align: center;\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer button[data-v-00e83377] {\n  margin: 15px auto;\n  padding: 12px 22px;\n  border: none;\n  border-radius: 20px;\n  font-size: 15px;\n  color: rgb(64, 14, 64);\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer button .ms_btnLeft[data-v-00e83377] {\n  position: absolute;\n  left: 20px;\n  top: 50%;\n  transform: translateY(-50%);\n}\n.item[data-v-00e83377] {\n  padding: 16px 24px;\n  margin-right: 24px;\n  border-radius: 4px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.item .ms_logo[data-v-00e83377],\n.item i[data-v-00e83377] {\n  color: #DE3151;\n}\n.ms_apartmentSlider[data-v-00e83377] {\n  margin: 250px 0 40px 0;\n  position: relative;\n}\n.ms_apartmentSlider button[data-v-00e83377] {\n  color: white;\n  background: #DE3151;\n  padding: 10px 15px;\n  font-weight: 900;\n  border: 0px;\n  border-radius: 50%;\n}\n.ms_apartmentSlider section[data-v-00e83377] {\n  max-width: 320px;\n  margin: 20px 0;\n  text-align: center;\n}\n.ms_apartmentSlider h5[data-v-00e83377] {\n  max-width: 320px;\n  margin: 0 10px;\n}\n.ms_apartmentSlider a[data-v-00e83377] {\n  color: black;\n  text-decoration: none;\n}\n.ms_apartmentSlider .ms_cardImage[data-v-00e83377] {\n  margin-bottom: 0;\n  padding: 20px 0;\n}\n.ms_apartmentSlider .ms_cardImage img[data-v-00e83377] {\n  height: 200px;\n  width: 300px;\n  border-radius: 13px;\n}\n.ms_citiesContainer[data-v-00e83377] {\n  margin: 40px 0;\n  padding: 0;\n}\n.ms_citiesContainer .ms_flexContainer[data-v-00e83377] {\n  display: flex;\n  justify-content: space-between;\n}\n.ms_citiesContainer .ms_cityCard[data-v-00e83377] {\n  width: calc(25% - 10px);\n  border-radius: 20px;\n  padding: 0;\n  margin: 0 5px;\n  height: 400px;\n  overflow: hidden;\n}\n.ms_citiesContainer .ms_cityCard .ms_imageContainer[data-v-00e83377] {\n  height: 200px;\n  width: 100%;\n  overflow: hidden;\n}\n.ms_citiesContainer .ms_cityCard .ms_imageContainer img[data-v-00e83377] {\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.ms_citiesContainer .ms_cityCard .ms_textcity[data-v-00e83377] {\n  padding: 20px;\n}\n.ms_experienceContainer[data-v-00e83377] {\n  margin: 40px auto;\n}\n.ms_experienceContainer .ms_imgsEsp[data-v-00e83377] {\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp[data-v-00e83377] {\n  padding: 20px 10px;\n  overflow: hidden;\n  position: relative;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp img[data-v-00e83377] {\n  width: 100%;\n  border-radius: 20px;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp .ms_esptext[data-v-00e83377] {\n  position: absolute;\n  top: 80px;\n  left: 60px;\n  font-size: 60px;\n}\n.ms_giftContainer[data-v-00e83377] {\n  margin: 100px auto;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.ms_giftContainer .ms_giftFont[data-v-00e83377] {\n  font-size: 65px;\n}\n.ms_giftContainer .ms_giftImg img[data-v-00e83377] {\n  width: 100%;\n}", ""]);
+exports.push([module.i, ".ms_jumbotron[data-v-00e83377] {\n  background-color: black;\n  height: 800px;\n  display: flex;\n  justify-content: center;\n  position: relative;\n}\n.ms_jumbotron .ms_imagecontainerJumbo[data-v-00e83377] {\n  margin-top: 200px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 712px;\n  border-radius: 20px;\n  overflow: hidden;\n}\n.ms_jumbotron .ms_imagecontainerJumbo img[data-v-00e83377] {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer[data-v-00e83377] {\n  position: absolute;\n  bottom: 30px;\n  left: 50%;\n  transform: translate(-50%);\n  width: 700px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer h1.ms_textJombo[data-v-00e83377] {\n  font-size: 50px;\n  text-align: center;\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer button[data-v-00e83377] {\n  margin: 15px auto;\n  padding: 12px 22px;\n  border: none;\n  border-radius: 20px;\n  font-size: 15px;\n  color: rgb(64, 14, 64);\n}\n.ms_jumbotron .ms_imagecontainerJumbo .ms_textcontainer button .ms_btnLeft[data-v-00e83377] {\n  position: absolute;\n  left: 20px;\n  top: 50%;\n  transform: translateY(-50%);\n}\n.item[data-v-00e83377] {\n  padding: 16px 24px;\n  margin-right: 24px;\n  border-radius: 4px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.item .ms_logo[data-v-00e83377],\n.item i[data-v-00e83377] {\n  color: #DE3151;\n}\n.ms_apartmentSlider[data-v-00e83377] {\n  margin: 250px 0 40px 0;\n  position: relative;\n}\n.ms_apartmentSlider button[data-v-00e83377] {\n  color: white;\n  background: #DE3151;\n  padding: 10px 15px;\n  font-weight: 900;\n  border: 0px;\n  border-radius: 50%;\n}\n.ms_apartmentSlider section[data-v-00e83377] {\n  max-width: 320px;\n  margin: 20px 0;\n  text-align: center;\n}\n.ms_apartmentSlider h5[data-v-00e83377] {\n  max-width: 320px;\n  margin: 0 10px;\n}\n.ms_apartmentSlider a[data-v-00e83377] {\n  color: black;\n  text-decoration: none;\n}\n.ms_apartmentSlider .ms_cardImage[data-v-00e83377] {\n  margin-bottom: 0;\n  padding: 20px 0;\n}\n.ms_apartmentSlider .ms_cardImage img[data-v-00e83377] {\n  height: 200px;\n  width: 300px;\n  border-radius: 13px;\n}\n.ms_citiesContainer[data-v-00e83377] {\n  margin: 40px 0;\n  padding: 0;\n}\n.ms_citiesContainer .ms_flexContainer[data-v-00e83377] {\n  display: flex;\n  justify-content: space-between;\n}\n.ms_citiesContainer .ms_cityCard[data-v-00e83377] {\n  width: calc(25% - 10px);\n  border-radius: 20px;\n  padding: 0;\n  margin: 0 5px;\n  height: 400px;\n  overflow: hidden;\n}\n.ms_citiesContainer .ms_cityCard .ms_imageContainer[data-v-00e83377] {\n  height: 200px;\n  width: 100%;\n  overflow: hidden;\n}\n.ms_citiesContainer .ms_cityCard .ms_imageContainer img[data-v-00e83377] {\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.ms_citiesContainer .ms_cityCard .ms_textcity[data-v-00e83377] {\n  padding: 20px;\n}\n.ms_experienceContainer[data-v-00e83377] {\n  margin: 40px auto;\n}\n.ms_experienceContainer .ms_imgsEsp[data-v-00e83377] {\n  width: 100%;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp[data-v-00e83377] {\n  padding: 20px 0;\n  overflow: hidden;\n  position: relative;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp img[data-v-00e83377] {\n  width: 100%;\n  border-radius: 20px;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp .ms_esptext[data-v-00e83377] {\n  position: absolute;\n  top: 80px;\n  left: 60px;\n  font-size: 40px;\n}\n@media only screen and (min-width: 768px) {\n.ms_experienceContainer[data-v-00e83377] {\n    margin: 40px auto;\n}\n.ms_experienceContainer .ms_imgsEsp[data-v-00e83377] {\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp[data-v-00e83377] {\n    padding: 20px 10px;\n}\n.ms_experienceContainer .ms_imgsEsp .ms_imgEsp .ms_esptext[data-v-00e83377] {\n    font-size: 60px;\n}\n}\n.ms_giftContainer[data-v-00e83377] {\n  margin: 50px auto;\n}\n.ms_giftContainer .ms_giftFont h1[data-v-00e83377] {\n  font-size: 40px;\n  padding-bottom: 50px;\n}\n.ms_giftContainer .ms_giftImg img[data-v-00e83377] {\n  width: 100%;\n}\n@media only screen and (min-width: 768px) {\n.ms_giftContainer[data-v-00e83377] {\n    margin: 100px auto;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.ms_giftContainer .ms_giftFont h1[data-v-00e83377] {\n    font-size: 45px;\n    padding-bottom: 0;\n}\n}", ""]);
 
 // exports
 
@@ -11166,8 +11166,8 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-10 ms_experienceContainer" }, [
           _c("h1", [_vm._v("Scopri le Esperienze Boolbnb")]),
           _vm._v(" "),
-          _c("div", { staticClass: "ms_imgsEsp row" }, [
-            _c("div", { staticClass: "ms_imgEsp col-6" }, [
+          _c("div", { staticClass: "ms_imgsEsp" }, [
+            _c("div", { staticClass: "ms_imgEsp col col-lg-6" }, [
               _c("img", {
                 attrs: {
                   src: __webpack_require__(/*! ../../../public/storage/uploads/experience2.jpg */ "./storage/app/public/uploads/experience2.jpg"),
@@ -11182,7 +11182,7 @@ var staticRenderFns = [
               ]),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "ms_imgEsp col-6" }, [
+            _c("div", { staticClass: "ms_imgEsp col col-lg-6" }, [
               _c("img", {
                 attrs: {
                   src: __webpack_require__(/*! ../../../public/storage/uploads/experience1.jpg */ "./storage/app/public/uploads/experience1.jpg"),
@@ -11207,9 +11207,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid" }, [
       _c("div", { staticClass: "row d-flex justify-content-center p-0" }, [
-        _c("div", { staticClass: "row ms_giftContainer col-10" }, [
-          _c("div", { staticClass: "col-4" }, [
-            _c("h1", { staticClass: "ms_giftFont" }, [
+        _c("div", { staticClass: "ms_giftContainer p-0 col-10" }, [
+          _c("div", { staticClass: "col-12 col-lg-4 ms_giftFont" }, [
+            _c("h1", [
               _vm._v("Acquista "),
               _c("br"),
               _vm._v(" le gift card "),
@@ -11218,7 +11218,7 @@ var staticRenderFns = [
             ]),
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "ms_giftImg col-8" }, [
+          _c("div", { staticClass: "ms_giftImg col col-lg-8" }, [
             _c("img", {
               attrs: {
                 src: __webpack_require__(/*! ../../../public/storage/uploads/gift.jpg */ "./storage/app/public/uploads/gift.jpg"),
@@ -11283,7 +11283,10 @@ var render = function () {
       [
         _c("h1", [_vm._v(_vm._s(_vm.apartment.name))]),
         _vm._v(" "),
-        _c("p", [_vm._v(_vm._s(_vm.apartment.address))]),
+        _c("p", [
+          _c("i", { staticClass: "fa-solid fa-location-dot mr-2" }),
+          _vm._v(_vm._s(_vm.apartment.address)),
+        ]),
         _vm._v(" "),
         _c(
           "div",
@@ -11319,7 +11322,7 @@ var render = function () {
           ),
         ]),
         _vm._v(" "),
-        _c("h2", [_vm._v("Servizi")]),
+        _vm._m(0),
         _vm._v(" "),
         _vm._l(_vm.apartment.services, function (service) {
           return _c("div", { key: service.id, staticClass: "container" }, [
@@ -11327,9 +11330,7 @@ var render = function () {
           ])
         }),
         _vm._v(" "),
-        _c("h4", [
-          _vm._v("Scrivi un messaggio al proprietario dell'appartamento"),
-        ]),
+        _vm._m(1),
         _vm._v(" "),
         _c(
           "form",
@@ -11406,7 +11407,26 @@ var render = function () {
     ),
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h2", [
+      _c("i", { staticClass: "fa-solid fa-bell-concierge mr-2" }),
+      _vm._v("Servizi"),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h4", [
+      _c("i", { staticClass: "fa-solid fa-message mr-2" }),
+      _vm._v(" Scrivi un messaggio al proprietario dell'appartamento"),
+    ])
+  },
+]
 render._withStripped = true
 
 

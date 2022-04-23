@@ -2,7 +2,7 @@
     <div>
         <div class="container p-3 singleApartment">
             <h1>{{apartment.name}}</h1>
-            <p>{{apartment.address}}</p>
+            <p><i class="fa-solid fa-location-dot mr-2"></i>{{apartment.address}}</p>
             <div class="container containerImages">
                 <span v-for="image in apartment.images" :key="image.id"><!-- non usare ccs su questo span -->
                     <img v-if="image.main_image" class="main-immagine" :src="`/storage/${image.url}`">
@@ -12,11 +12,11 @@
             </div>
             <h5>{{apartment.description}}</h5>
             <p>Stanze: {{apartment.rooms}} • letti: {{apartment.beds}} • bagni: {{apartment.bathrooms}} • metri quadrati: {{apartment.square_meters}}</p>
-            <h2>Servizi</h2>
+            <h2><i class="fa-solid fa-bell-concierge mr-2"></i>Servizi</h2>
             <div v-for="service in apartment.services" :key="service.id" class="container">
                 <p>{{service.name}}</p>
             </div>
-            <h4>Scrivi un messaggio al proprietario dell&#39;appartamento</h4>
+            <h4><i class="fa-solid fa-message mr-2"></i> Scrivi un messaggio al proprietario dell&#39;appartamento</h4>
             <form @submit.prevent='sendMail'>
                 <div v-if="authUser==1">
                     <label for="email">Ciaone!</label>

@@ -162,6 +162,7 @@ header{
               justify-content: end;
               width: 30px;
               align-items: center;
+              margin-right: 5px;
               .searchIcon{
                   background-color: #ff385c;
                   border-radius: 50%;

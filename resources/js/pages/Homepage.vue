@@ -90,12 +90,12 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-10 ms_experienceContainer">
                     <h1>Scopri le Esperienze Boolbnb</h1>
-                    <div class="ms_imgsEsp row">
-                        <div class="ms_imgEsp col-6">
+                    <div class="ms_imgsEsp">
+                        <div class="ms_imgEsp col col-lg-6">
                             <img  src="../../../public/storage/uploads/experience2.jpg" alt="">
                             <h1 class="ms_esptext text-white">Esperienze <br> per il tuo viaggio</h1>
                         </div>
-                        <div class="ms_imgEsp col-6">
+                        <div class="ms_imgEsp col col-lg-6">
                             <img  src="../../../public/storage/uploads/experience1.jpg" alt="">
                             <h1 class="ms_esptext text-white">Attività <br> da casa</h1>
                         </div>  
@@ -107,11 +107,11 @@
         <!-- gift card  -->
         <div class="container-fluid">
             <div class="row d-flex justify-content-center p-0">
-                <div class="row ms_giftContainer col-10">
-                    <div class="col-4">
-                        <h1 class="ms_giftFont">Acquista <br> le gift card <br> di Airbnb</h1>
+                <div class="ms_giftContainer p-0 col-10">
+                    <div class="col-12 col-lg-4 ms_giftFont">
+                        <h1>Acquista <br> le gift card <br> di Airbnb</h1>
                     </div>
-                    <div class="ms_giftImg col-8">
+                    <div class="ms_giftImg col col-lg-8">
                         <img  src="../../../public/storage/uploads/gift.jpg" alt="">
                     </div>
                 </div>
@@ -194,13 +194,13 @@ export default {
         }
         .ms_textcontainer{
             position: absolute;
-                bottom: 30px;
-                left: 50%;
-                transform:translate(-50%);
-                width: 700px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+            bottom: 30px;
+            left: 50%;
+            transform:translate(-50%);
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             h1.ms_textJombo{
                 font-size: 50px;
                 text-align: center;
@@ -223,8 +223,7 @@ export default {
     }
     
 }
-
-       
+     
 
 // appartamenti
 .item {
@@ -284,6 +283,7 @@ export default {
 
 }
 
+//cities cards
 .ms_citiesContainer { 
     margin:40px 0;
     padding: 0;
@@ -313,14 +313,17 @@ export default {
     
     }
 }
+@media only screen and (min-width:768px){
+    
+}
+
+//experiences
 .ms_experienceContainer{
     margin:40px auto;
     .ms_imgsEsp{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
         .ms_imgEsp{
-            padding: 20px 10px;
+            padding: 20px 0;
             overflow: hidden;
             position: relative;
             img{
@@ -331,24 +334,53 @@ export default {
                 position: absolute;
                 top: 80px;
                 left: 60px;
-                font-size: 60px;
+                font-size: 40px;
             }
         }
     }
 }
 
+@media only screen and (min-width:768px){
+        .ms_experienceContainer{
+        margin:40px auto;
+        .ms_imgsEsp{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .ms_imgEsp{
+                padding: 20px 10px;
+                .ms_esptext{
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}
+
+
+//gift card
 .ms_giftContainer{
-    margin:100px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .ms_giftFont{
-        font-size: 65px;
+    margin:50px auto;
+    .ms_giftFont h1{
+        font-size: 40px;
+        padding-bottom: 50px;
     }
     .ms_giftImg{
         img{
             width: 100%;
         }
     }
+}
+@media only screen and (min-width:768px){
+        .ms_giftContainer{
+            margin:100px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .ms_giftFont h1{
+            font-size: 45px;
+            padding-bottom: 0;
+        }
+    }       
 }
 </style>
