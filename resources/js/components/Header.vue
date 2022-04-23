@@ -30,7 +30,7 @@
                 </div>
             
             <!-- campi aggiuntivi -->
-              <div class="row col justify-content-around filter">
+              <div class="ms_options col justify-content-around filter">
                     <label for="rooms">Numero di Stanze</label>
                       <select id="rooms" name="rooms_number" >
                         <option value="">-</option>
@@ -286,8 +286,29 @@ input:focus, textarea:focus, select:focus{
   padding: 10px 0;
 }
 
-select{
-  height: 25px;
+
+.ms_options{
+  min-width: 500px;
+  text-align: center;
+  label{
+    font-size: 12px;
+    select{
+      height: 25px;
+    }
+  }
+}
+@media only screen and (min-width:768px){
+  .ms_options{
+  min-width: 800px;
+  text-align: center;
+  label{
+    font-size: 15px;
+    select{
+      height: 25px;
+    }
+  }
+}
+
 }
 </style>
 

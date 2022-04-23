@@ -284,21 +284,21 @@ export default {
 
 //cities cards
 .ms_citiesContainer { 
-    margin:40px 0;
+    margin:30px 0;
     padding: 0;
     .ms_flexContainer{
         display: flex;
         justify-content: space-between;
     }
     .ms_cityCard{
-        width: calc(100% / 4 - 10px);
+        width: calc(100% / 2 - 10px);
         border-radius: 20px;
         padding: 0;
         margin: 0 5px;
-        height: 400px;
+        height: 300px;
         overflow: hidden;
         .ms_imageContainer{
-            height: 200px;
+            height: 167px;
             width: 100%;
             overflow: hidden;
             img{
@@ -307,13 +307,39 @@ export default {
             }
         }
         .ms_textcity{
-            padding: 20px;
+            padding: 10px 20px;
         }
     
     }
 }
-@media only screen and (min-width:768px){
-    
+@media only screen and (min-width:1200px){
+        .ms_citiesContainer { 
+        margin:40px 0;
+        .ms_flexContainer{
+            display: flex;
+            justify-content: space-between;
+        }
+        .ms_cityCard{
+            width: calc(100% / 4 - 10px);
+            border-radius: 20px;
+            padding: 0;
+            margin: 0 5px;
+            height: 400px;
+            overflow: hidden;
+            .ms_imageContainer{
+                height: 200px;
+                width: 100%;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            .ms_textcity{
+                padding: 20px;
+            } 
+        }
+    }   
 }
 
 //experiences
@@ -369,7 +395,7 @@ export default {
         }
     }
 }
-@media only screen and (min-width:768px){
+@media only screen and (min-width:1200px){
         .ms_giftContainer{
             margin:100px auto;
         display: flex;
