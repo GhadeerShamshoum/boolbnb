@@ -242,7 +242,7 @@ header{
         min-width: 375px;
         width: 100%;
         .btnSearch{
-          height: 30px;
+          min-height: 30px;
           background-color: hwb(349 17% 45%);
           border: none;
           border-radius: 5px;
