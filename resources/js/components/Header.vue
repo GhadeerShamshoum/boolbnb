@@ -23,7 +23,7 @@
                     <div class="inputContainer col-12 col-lg-8 d-flex justify-content-between" @keyup.enter.stop="filter" :class="{ 'search': scrollEffect }">
                       <input class="col-8 ml-4"  type="text" v-model="search" @input="autocomplete" value="choosedSearch">
                       <div class="col-2 p-0 ms_icon"><i @click="filter" class="fa-solid fa-magnifying-glass searchIcon"></i></div>
-                      <div class="autocompleters" v-show="autocompleters">
+                      <div class="autocompleters mt-3" v-show="autocompleters">
                         <div class="paddingFormer"></div>
                         <div class="option" v-for="(option, index) in autocompleters" :key="index" @click="setSearch(index)">
                             {{option.address.freeformAddress}}
@@ -417,13 +417,11 @@ input[type=number]{
 
 .autocompleters{
   border-radius: 20px;
-  top: -5px;
-  padding-top: 64px;
-  z-index: -1;
-
+  padding-left: 5px;
+  
   .option{
     color: grey;
-    padding: 5px;
+    padding: 10px;
   }
 }
 
