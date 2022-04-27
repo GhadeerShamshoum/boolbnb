@@ -30237,7 +30237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_ApartmentList_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/ApartmentList.vue */ "./resources/js/pages/ApartmentList.vue");
 /* harmony import */ var _pages_SearchResults_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/SearchResults.vue */ "./resources/js/pages/SearchResults.vue");
 /* harmony import */ var _pages_PageNotFound_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/PageNotFound.vue */ "./resources/js/pages/PageNotFound.vue");
-/* harmony import */ var _pages_ChiSiamo_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/ChiSiamo.vue */ "./resources/js/pages/ChiSiamo.vue");
+/* harmony import */ var _pages_ChiSiamo_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/ChiSiamo.vue */ "./resources/js/pages/ChiSiamo.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -30268,7 +30268,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   }, {
     path: "/chi-siamo",
     name: "ChiSiamo",
-    component: _pages_ChiSiamo_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
+    component: _pages_ChiSiamo_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   }, {
     path: '/*',
     name: "page-404",
@@ -31485,7 +31485,7 @@ module.exports = "/images/jubotron.jpg?9c1049b9750979074a9fb20d1529ac35";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Stenm\Desktop\Boolean\boolbnb\resources\js\front.js */"./resources/js/front.js");
+module.exports = __webpack_require__(/*! C:\Users\haitam\Documents\Boolean-Ghadeer\boolbnb\resources\js\front.js */"./resources/js/front.js");
 
 
 /***/ })

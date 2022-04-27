@@ -14602,3 +14602,64 @@ main {
   min-height: 1000px;
 }
 
+.ms_imgContainer {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid rgb(193, 190, 190);
+  padding: 10px;
+}
+
+.ms_imgContainer img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.ms_cancelBtn {
+  margin-left: 0;
+  margin-right: 0;
+  width: 200px;
+  transition: linear 1s;
+  border: none;
+  border-radius: 10px;
+  height: 50px !important;
+}
+
+.ms_cancelBtn:hover {
+  background-color: rgb(79, 77, 77);
+}
+
+.ms_saveBtn {
+  background-color: #FF385C;
+  color: white;
+  transition: linear 1s;
+  border: none;
+  min-height: 50px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.ms_saveBtn:hover {
+  background-color: hwb(349 17% 45%);
+}
+
+.ms_imgCardContainer {
+  background-color: #f6f2f2;
+  border-radius: 20px;
+}
+
+.ms_saveBtnD {
+  background-color: #FF385C;
+  color: white;
+  transition: linear 1s;
+  border: none;
+}
+
+.ms_saveBtnD:hover {
+  background-color: hwb(349 17% 45%);
+}
+
