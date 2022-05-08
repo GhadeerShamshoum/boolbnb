@@ -321,15 +321,11 @@ ul{
 }
 
 .no-apartments{
-    position:relative;
-    height:calc(100vh - 710px);
-
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     .response-text{
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%,-50%);
-        display: inline-block;
+        margin-top: 200px;
         font-size: 32px;
     }
 }

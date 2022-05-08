@@ -27,7 +27,7 @@
                     </a>
                   </div>
                   <div class="col">
-                    <a href="#/">
+                    <a href="https://www.linkedin.com/in/ghadeershamshoum/">
                         <button>
                             <div class="inside-button row">
                                 <i class="fa-brands fa-linkedin linkedin"></i>
