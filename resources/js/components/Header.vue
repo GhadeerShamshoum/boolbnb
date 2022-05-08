@@ -23,7 +23,7 @@
                 <div class="d-flex headercenterB justify-content-center  align-items-center m-auto container-fluid">
                   <div class="row col-12">
                       <div class="inputContainer col-12 col-lg-10 d-flex justify-content-between" @keyup.enter.stop="filter" :class="{ 'search': scrollEffect }">
-                        <input class="col-8 ml-4"  type="text" v-model="search" @input="autocomplete" value="choosedSearch">
+                        <input class="col-8 ml-4" placeholder="Dove vuoi andare?" type="text" v-model="search" @input="autocomplete" value="choosedSearch">
                         <div class="col-2 p-0 ms_icon" :class="searchIsSet ? '' : 'notSearchIcon'" @click="filter"><i  class="fa-solid fa-magnifying-glass searchIcon" ></i></div>
                         <div class="autocompleters col-12" v-show="autocompleters">
                           <div class="option" v-for="(option, index) in autocompleters" :key="index" @click.stop="setSearch(index)">
@@ -40,7 +40,7 @@
                 </div>
             
             <!-- campi aggiuntivi -->
-            <div class="container-fluid" v-show="selectOption" @click.stop="">
+            <div class="container-fluid" v-show="selectOption" @click.stop="" >
               <div class="row col filter d-flex flex-column mt-3">
                 <div>
                   <label for="rooms">Numero di Stanze</label>
@@ -190,6 +190,7 @@ export default {
      deselect(){
       this.autocompleters = [];
       this.search = "";
+      this.selectOption= false,
       this.headerDropdown = false;
 
     },
@@ -323,7 +324,7 @@ header{
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: center;
+       
         li{
           padding: 10px;
           button{
